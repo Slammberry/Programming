@@ -1,7 +1,7 @@
 s= input("What is the word?")
-If(s>=3 and s.endswith('ing')):
+if s>=3 and s.endswith('ing'):
     print("%ly"%(s))
-Elif(not s.endswith('ing')):
+elif (not s.endswith('ing')):
     print("%ing"%(s))
-Else:
+else:
     print("%"%(s))
